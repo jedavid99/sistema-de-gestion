@@ -1,0 +1,28 @@
+
+
+
+
+
+
+.cerrar{
+	width: 50px;
+    font-size: 2.5rem;
+	padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+ }
+
+
+ .modal-header {
+	background: linear-gradient(90deg,#10a6e6,#2591b5)
+
+ }
+
+ .modal-body{
+	background: linear-gradient(90deg,#abeaff,#7a75b5);
+ }
+

@@ -1,0 +1,23 @@
+Esto va en el Head
+
+--------------------------------------------------
+<script src="fecha/js/jscal2.js"></script>
+<script src="fecha/js/lang/es.js"></script>
+
+<link rel="stylesheet" type="text/css" href="fecha/css/jscal2.css" />
+<link rel="stylesheet" type="text/css" href="fecha/css/border-radius.css" />
+<link rel="stylesheet" type="text/css" href="fecha/css/steel/steel.css" />
+-----------------------------------------------------------------------------
+
+
+
+
+<input  name="fecha" type="text" id="fecha" value="" size="20" readonly  />
+<input name="btnfecha" id="btnfecha" type="button" value="..." />
+
+<script type="text/javascript" >
+    var calendario = Calendar.setup({
+        onSelect: function(calendario) { calendario.hide() },
+        showTime: true });
+        calendario.manageFields("btnfecha", "fecha", "%d/%m/%Y");
+</script>
